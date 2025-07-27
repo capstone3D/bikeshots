@@ -4,9 +4,9 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 const {
-  DB_HOST = 'capstone',
-  DB_USER = 'chris_database',
-  DB_PASSWORD = 'bikeshots',
+  DB_HOST = 'localhost',
+  DB_USER = 'root',
+  DB_PASSWORD = '',
   DB_NAME = 'bikeshots_bikeshop',
 } = process.env;
 
